@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Score Bord Game</title>
+    <link rel="stylesheet" href="scoreBord.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="gameTable">
+        <img
+          src="https://www.advancedsciencenews.com/wp-content/uploads/2021/08/lisa-keffer-i0kB5B9J8Ds-unsplash.jpg"
+          alt="pingpong jpg"
+        />
+        <h2><b>Ping Pong Score Keeper</b></h2>
+        <hr />
+        <h1 class="score">
+          <span id="score1" class="">0</span> to
+          <span id="score2" class="">0</span>
+        </h1>
+        <p>Use the buttons below to keep score</p>
+        <label for="a">Playing To </label>
+        <select name="num" id="num">
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+        </select>
+        <footer class="card-footer" id="card-footer">
+          <button type="button" id="primary" class="btn btn-primary btn-lg">
+            +1 Player One
+          </button>
+          <button type="button" id="success" class="btn btn-success btn-lg">
+            +1 Player Two
+          </button>
+          <button type="button" id="danger" class="btn btn-danger btn-lg">
+            Reset
+          </button>
+        </footer>
+      </div>
+    </div>
+
+    <script src="scoreBord.js"></script>
+  </body>
+</html>

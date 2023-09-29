@@ -1,0 +1,86 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: black;
+}
+.container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  width: 669px;
+  height: 634px;
+}
+.gameTable {
+  box-shadow: 10px 5px 5px white;
+  background-color: #f8f7ff;
+  width: 669px;
+  height: 634px;
+  margin-top: 100px;
+}
+.gameTable img {
+  width: 669px;
+  height: 334px;
+}
+.gameTable h2 {
+  font-size: 20px;
+  font-style: oblique;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.score {
+  font-size: 50px;
+  width: 621px;
+  height: 54px;
+  margin-left: 20px;
+  margin-top: -4px;
+}
+
+p {
+  font-size: 18px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+select {
+  font-size: 20px;
+}
+
+select#num {
+  border-radius: 20%;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+label {
+  font-size: 30px;
+  margin-top: 0px;
+  margin-left: 20px;
+}
+
+.card-footer {
+  font-size: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#primary {
+  font-size: 35px;
+}
+#success {
+  font-size: 35px;
+}
+#danger {
+  font-size: 35px;
+}
+.winner {
+  color: green;
+}
+.loser {
+  color: red;
+}
